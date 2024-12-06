@@ -1,0 +1,60 @@
+body {
+    background-color: #f8f9fa; /* Light background */
+    color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for container */
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;
+    color: #007bff; /* Blue color for the heading */
+}
+
+label {
+    color: #333333;
+    font-weight: bold;
+}
+
+input, select {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    background-color: #f1f1f1; /* Light grey background for inputs */
+    color: #333333; /* Dark text for visibility */
+    font-size: 1em;
+}
+
+input:focus, select:focus {
+    border-color: #007bff; /* Blue border on focus */
+    background-color: #e9ecef; /* Slightly darker background on focus */
+}
+
+button {
+    background-color: #28a745; /* Green button */
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1em;
+    padding: 10px;
+    width: 100%;
+    border: none;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.alert {
+    font-size: 1.2em;
+}
+
+form {
+    margin-top: 30px;
+}
